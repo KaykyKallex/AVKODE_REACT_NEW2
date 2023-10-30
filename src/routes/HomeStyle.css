@@ -1,0 +1,21 @@
+.sobre-page{
+    background-color: black;
+}
+
+h1#sbpH1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+p#sbpP {
+    color: white;
+    padding: 20px;
+}
+
+img.img-fluid {
+    display: block;
+    margin: 0 auto;
+    padding: 80px;
+    margin-bottom: -30px;
+}
