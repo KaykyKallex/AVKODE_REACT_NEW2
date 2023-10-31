@@ -10,7 +10,9 @@ h1#sbpH1{
 
 p#sbpP {
     color: white;
-    padding: 20px;
+    padding: 50px;
+    margin-left: 6vw;
+    width: 90vw;
 }
 
 img.img-fluid {
@@ -18,4 +20,20 @@ img.img-fluid {
     margin: 0 auto;
     padding: 80px;
     margin-bottom: -30px;
+    border-radius: 90px;
+}
+
+form {
+    background-color: #000000 ;
+    padding: 30px;
+}
+
+h1#contato-h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+label.form-label {
+    color: white;
 }

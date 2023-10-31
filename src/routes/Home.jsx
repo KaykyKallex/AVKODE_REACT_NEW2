@@ -2,6 +2,8 @@ import {  } from 'react'
 import './HomeStyle.css'
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'react-bootstrap/Image';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
 function Home() {
 
@@ -50,7 +52,23 @@ function Home() {
       <h1 id='sbpH1'>teste</h1>
       <p id='sbpP'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
-        
+
+    <div className='contato-page'>
+    <Form>
+    <h1 id='contato-h1'>Entre em Contato</h1>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Label>Endereço Email</Form.Label>
+        <Form.Control type="email" placeholder="name@example.com" required/>
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Digite sua mensagem</Form.Label>
+        <Form.Control as="textarea" rows={3} required/>
+      </Form.Group>
+      <Button variant="primary" type="submit">
+        Enviar
+      </Button>
+    </Form>
+    </div>    
     </>
   )
 }
