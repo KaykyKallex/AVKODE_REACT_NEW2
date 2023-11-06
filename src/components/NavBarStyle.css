@@ -1,0 +1,24 @@
+a.navbar-brand {
+    margin-left: 6vw;
+}
+
+img.img-nav {
+    width: 9vw;
+    margin-left: 20vw;
+}
+
+@media (max-width: 991px) {
+    a.navbar-brand {
+        margin-left: -14vw;
+    }
+    
+    img.img-nav {
+        width: 100px;
+        margin-left: 9vw;
+    }
+}
+
+
+nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light.bg-dark{
+    background: rgba(0, 0, 0, 1) !important;
+}

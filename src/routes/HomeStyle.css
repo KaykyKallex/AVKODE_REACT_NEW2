@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(59, 59, 59);
+}
+
 .sobre-page{
     background-color: black;
 }
@@ -23,17 +27,63 @@ img.img-fluid {
     border-radius: 90px;
 }
 
-form {
+form.cnt-page {
     background-color: #000000 ;
     padding: 30px;
+    width: 88vw;
+    /* position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px; */
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
+
+@media (min-width: 720px) {
+    form.cnt-page {
+        width: 50vw;
+    }
+}
+
 
 h1#contato-h1{
     display: flex;
     justify-content: center;
     color: white;
+    margin-bottom: 30px;
 }
 
 label.form-label {
     color: white;
+}
+
+.portifolio-page{
+    background-color: rgb(83, 83, 83);
+    padding: 100px;
+    
+}
+
+p#pPort{
+    color: white;
+}
+
+h1#portifolio-h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container.portifolio-page{
+    padding: 20px;
+}
+
+.pPOrtifolio-page {
+    display: flex;
+    /* margin-left: 40px;
+    margin-top: 20px; */
+    padding: 20px;
+    justify-content: space-around;
 }

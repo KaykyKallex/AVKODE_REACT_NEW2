@@ -1,5 +1,6 @@
 import {  } from 'react'
 import { Link } from 'react-router-dom'
+import './NavBarStyle.css'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -14,6 +15,7 @@ function NavBar() {
 
       <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
       <Container>
+        <a href='#home'><img src='src/assets/AVKODE-removebg-preview.png' className='img-nav'></img></a>
         <Navbar.Brand href="#home">AVKODE</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
