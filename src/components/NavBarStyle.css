@@ -1,5 +1,5 @@
 a.navbar-brand {
-    margin-left: 6vw;
+    margin-left: 1vw;
 }
 
 img.img-nav {
@@ -18,6 +18,15 @@ img.img-nav {
     }
 }
 
+.dropdown-menu.show {
+    background: black;
+    margin-top: 1.6vw;
+
+}
+
+.dropdown-menu.show {
+    display: block;
+}
 
 nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light.bg-dark{
     background: rgba(0, 0, 0, 1) !important;

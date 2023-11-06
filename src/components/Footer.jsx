@@ -8,6 +8,7 @@ function Footer() {
 
   return (
     <>
+    <section id='footer'>
     <footer className="bg-dark text-light">
       <div className="container">
         <div className="row">
@@ -18,9 +19,9 @@ function Footer() {
           <div className="col-md-4">
             <h4>Links Úteis</h4>
             <ul className="list-unstyled">
-              <li><a href="inicio">Página Inicial</a></li>
-              <li><a href="#">Produtos</a></li>
-              <li><a href="#">Contato</a></li>
+              <li><a href="#Inicio">Página Inicial</a></li>
+              <li><a href="#Portifolio">Portifólio</a></li>
+              <li><a href="#Contato">Contato</a></li>
             </ul>
           </div>
           <div className="col-md-4">
@@ -63,6 +64,7 @@ function Footer() {
         </div>
       </div>
     </footer>
+    </section>
     </>
   )
 }

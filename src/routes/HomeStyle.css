@@ -1,5 +1,25 @@
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #000000 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 6px;
+    border: 0px none #000000;
+  }
+
 body{
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(255, 255, 255);
 }
 
 .sobre-page{
@@ -10,6 +30,8 @@ h1#sbpH1{
     color: white;
     display: flex;
     justify-content: center;
+    padding: 70px;
+    margin-bottom: -84px;
 }
 
 p#sbpP {
@@ -86,4 +108,23 @@ h1#portifolio-h1{
     margin-top: 20px; */
     padding: 20px;
     justify-content: space-around;
+}
+
+.row {
+    justify-content: space-around;
+}
+
+h1#Agradecimentos-h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.Agradecimentos-page {
+    background-color: currentcolor;
+    padding: 95px;
+}
+
+p#agrP {
+    color: white;
 }

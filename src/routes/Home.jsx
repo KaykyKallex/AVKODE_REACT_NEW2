@@ -12,6 +12,7 @@ function Home() {
 
   return (
     <>
+    <section id='Inicio'>
     <div className='inicio'>
       <Carousel data-bs-theme="dark">
       <Carousel.Item>
@@ -51,12 +52,16 @@ function Home() {
       </Carousel.Item>
     </Carousel>
     </div>
+    </section>
+    <section id='SobreNos'>
     <div className='sobre-page'>
-      <Image src="https://c4.wallpaperflare.com/wallpaper/59/531/787/5bd0338b20c50-wallpaper-preview.jpg" fluid />;
       <h1 id='sbpH1'>Sobre Nós</h1>
+      <Image src="https://c4.wallpaperflare.com/wallpaper/59/531/787/5bd0338b20c50-wallpaper-preview.jpg" fluid />;
       <p id='sbpP'>A AVKODE é uma empresa especializada em desenvolvimento de software, oferecendo soluções confiáveis e personalizadas. Nossa principal missão é impulsionar o sucesso de nossos clientes, criando produtos de alta qualidade em um ambiente tecnologicamente desafiador e em constante mudança. Acreditamos no poder da tecnologia para transformar negócios e estamos comprometidos em fornecer as melhores soluções para atender às necessidades de nossos clientes.</p>
     </div>
+    </section>
 
+    <section id='Contato'>
     <div className='contato-page'>
     <Form className='cnt-page'>
     <h1 id='contato-h1'>Entre em Contato</h1>
@@ -73,6 +78,9 @@ function Home() {
       </Button>
     </Form>
     </div>  
+    </section>
+
+    <section id='Portifolio'>
     <div className='portifolio-page'>
     <h1 id='portifolio-h1'>Nossos Trabalhos</h1>
     <Container>
@@ -91,6 +99,15 @@ function Home() {
     <p id='pPort'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
     </div>
+    </section>
+
+    <section id='Agradecimentos'>
+    <div className='Agradecimentos-page'>
+    <h1 id='Agradecimentos-h1'>Nossos Agradecimentos</h1>
+    <Image src="https://c4.wallpaperflare.com/wallpaper/59/531/787/5bd0338b20c50-wallpaper-preview.jpg" fluid />;
+      <p id='agrP'>A AVKODE é uma empresa especializada em desenvolvimento de software, oferecendo soluções confiáveis e personalizadas. Nossa principal missão é impulsionar o sucesso de nossos clientes, criando produtos de alta qualidade em um ambiente tecnologicamente desafiador e em constante mudança. Acreditamos no poder da tecnologia para transformar negócios e estamos comprometidos em fornecer as melhores soluções para atender às necessidades de nossos clientes.</p>
+    </div>
+    </section>
     </>
   )
 }

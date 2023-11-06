@@ -15,21 +15,21 @@ function NavBar() {
 
       <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
       <Container>
-        <a href='#home'><img src='src/assets/AVKODE-removebg-preview.png' className='img-nav'></img></a>
-        <Navbar.Brand href="#home">AVKODE</Navbar.Brand>
+        <a href='#Inicio'><img src='src/assets/AVKODE-removebg-preview.png' className='img-nav'></img></a>
+        <Navbar.Brand href="#Inicio">AVKODE</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Início</Nav.Link>
-            <Nav.Link href="#link">Sobre</Nav.Link>
+            <Nav.Link href="#Inicio">Início</Nav.Link>
+            <Nav.Link href="#SobreNos">Sobre</Nav.Link>
             <NavDropdown title="Mais..." id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Contato</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="#Contato">Contato</NavDropdown.Item>
+              <NavDropdown.Item href="#Portifolio">
                 Portifólio
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Agradecimentos</NavDropdown.Item>
+              <NavDropdown.Item href="#Agradecimentos">Agradecimentos</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="#footer">
                 Rodapé
               </NavDropdown.Item>
             </NavDropdown>
