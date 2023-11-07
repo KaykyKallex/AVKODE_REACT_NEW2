@@ -18,35 +18,35 @@ function Home() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.indivstock.com/static40/preview2/stock-vector-live-603164.jpg"
+          src="https://media.licdn.com/dms/image/D5612AQFS3trm7vCATA/article-cover_image-shrink_600_2000/0/1681835164860?e=2147483647&v=beta&t=sonwAi13lsck58ERgUzg_540Dq-STi2ViD5wYMq6D98"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h5>Segurança</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5></h5>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.indivstock.com/static40/preview2/stock-vector-live-603164.jpg"
+          src="https://static01.nyt.com/images/2020/12/23/business/23Techfix-illo/23Techfix-illo-articleLarge.gif?quality=75&auto=webp&disable=upscale"
           alt="Second slide"
         />
         <Carousel.Caption>
           <h5>Agilidade</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.indivstock.com/static40/preview2/stock-vector-live-603164.jpg"
+          src="https://static.ffx.io/images/$zoom_0.816%2C$multiply_2%2C$ratio_1.776846%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/c_scale%2Cw_620%2Cq_88%2Cf_auto/f6d3e991fd8cc59f89c35ad89a219d11aae87f68"
           alt="Third slide"
         />
         <Carousel.Caption>
           <h5></h5>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+           
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -104,7 +104,7 @@ function Home() {
     <section id='Agradecimentos'>
     <div className='Agradecimentos-page'>
     <h1 id='Agradecimentos-h1'>Nossos Agradecimentos</h1>
-    <Image src="https://c4.wallpaperflare.com/wallpaper/59/531/787/5bd0338b20c50-wallpaper-preview.jpg" fluid />;
+    <Image className='img-agrd' src="https://c4.wallpaperflare.com/wallpaper/59/531/787/5bd0338b20c50-wallpaper-preview.jpg" />;
       <p id='agrP'>A AVKODE é uma empresa especializada em desenvolvimento de software, oferecendo soluções confiáveis e personalizadas. Nossa principal missão é impulsionar o sucesso de nossos clientes, criando produtos de alta qualidade em um ambiente tecnologicamente desafiador e em constante mudança. Acreditamos no poder da tecnologia para transformar negócios e estamos comprometidos em fornecer as melhores soluções para atender às necessidades de nossos clientes.</p>
     </div>
     </section>

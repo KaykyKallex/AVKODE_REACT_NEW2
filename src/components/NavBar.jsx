@@ -13,7 +13,7 @@ function NavBar() {
       {/* <Link to= '/' >Home</Link> 
       <Link to= '/Produtos' >Produtos</Link> */}
 
-      <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
+      <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark" sticky="top">
       <Container>
         <a href='#Inicio'><img src='src/assets/AVKODE-removebg-preview.png' className='img-nav'></img></a>
         <Navbar.Brand href="#Inicio">AVKODE</Navbar.Brand>

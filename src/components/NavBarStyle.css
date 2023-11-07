@@ -5,7 +5,21 @@ a.navbar-brand {
 img.img-nav {
     width: 9vw;
     margin-left: 20vw;
+    animation: animate 3s linear infinite;
 }
+
+   
+  @keyframes animate{
+    0%{
+      opacity: 0.5;
+    }
+    50%{
+      opacity: 9;
+    }
+    100%{
+      opacity: 0.5;
+    }
+  }
 
 @media (max-width: 991px) {
     a.navbar-brand {
@@ -29,5 +43,9 @@ img.img-nav {
 }
 
 nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light.bg-dark{
-    background: rgba(0, 0, 0, 1) !important;
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+
+a.nav-link {
+    color: white;
 }
