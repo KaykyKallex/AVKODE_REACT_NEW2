@@ -39,6 +39,7 @@ p#sbpP {
     padding: 50px;
     margin-left: 6vw;
     width: 90vw;
+    text-align: center;
 }
 
 img.img-fluid {
@@ -131,6 +132,7 @@ h1#Agradecimentos-h1 {
     display: flex;
     justify-content: center;
     color: white;
+    text-align: center;
 }
 
 .Agradecimentos-page {
@@ -140,4 +142,15 @@ h1#Agradecimentos-h1 {
 
 p#agrP {
     color: white;
+}
+
+img.img-agrd.img-fluid {
+    padding: 19px;
+    border-radius: 27px;
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+}
+
+p#agrP {
+    text-align: center;
 }

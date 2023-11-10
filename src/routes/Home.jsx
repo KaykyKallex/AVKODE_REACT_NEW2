@@ -83,19 +83,10 @@ function Home() {
     <section id='Portifolio'>
     <div className='portifolio-page'>
     <h1 id='portifolio-h1'>Nossos Trabalhos</h1>
-    <Container>
-      <Row>
-        <Col xs={6} md={4}>
-          <Image src="https://res.cloudinary.com/people-matters/image/upload/fl_immutable_cache,w_624,h_351,q_auto,f_auto/v1611723380/1611723379.jpg" thumbnail />
-        </Col>
-        
-        <Col xs={6} md={4}>
-          <Image src="https://res.cloudinary.com/people-matters/image/upload/fl_immutable_cache,w_624,h_351,q_auto,f_auto/v1611723380/1611723379.jpg" thumbnail />
-        </Col>
-      </Row>
-    </Container>
     <div className='pPOrtifolio-page'>
+    <Image className='img-port' src="https://c4.wallpaperflare.com/wallpaper/59/531/787/5bd0338b20c50-wallpaper-preview.jpg" fluid />;
     <p id='pPort'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <Image className='img-port' src="https://c4.wallpaperflare.com/wallpaper/59/531/787/5bd0338b20c50-wallpaper-preview.jpg" fluid />;
     <p id='pPort'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
     </div>
@@ -104,8 +95,10 @@ function Home() {
     <section id='Agradecimentos'>
     <div className='Agradecimentos-page'>
     <h1 id='Agradecimentos-h1'>Nossos Agradecimentos</h1>
-    <Image className='img-agrd' src="https://c4.wallpaperflare.com/wallpaper/59/531/787/5bd0338b20c50-wallpaper-preview.jpg" />;
-      <p id='agrP'>A AVKODE é uma empresa especializada em desenvolvimento de software, oferecendo soluções confiáveis e personalizadas. Nossa principal missão é impulsionar o sucesso de nossos clientes, criando produtos de alta qualidade em um ambiente tecnologicamente desafiador e em constante mudança. Acreditamos no poder da tecnologia para transformar negócios e estamos comprometidos em fornecer as melhores soluções para atender às necessidades de nossos clientes.</p>
+    <Image className='img-agrd' src="https://media.licdn.com/dms/image/C4D03AQG9LkDRJH6UDA/profile-displayphoto-shrink_800_800/0/1565313254776?e=2147483647&v=beta&t=q-rpzrFsTxcPK0DjMxcbEj_c7adO6RatXCHMnWaXsM0" fluid />;
+      <p id='agrP'>Prof. Wellington Cidade</p>
+      <Image className='img-agrd' src="https://c4.wallpaperflare.com/wallpaper/59/531/787/5bd0338b20c50-wallpaper-preview.jpg" fluid />;
+      <p id='agrP'>A AVKODE é uma empresa </p>
     </div>
     </section>
     </>
