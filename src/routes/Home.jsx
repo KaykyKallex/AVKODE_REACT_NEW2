@@ -7,11 +7,18 @@ import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import { motion, useScroll, useSpring } from "framer-motion";
 
 function Home() {
-
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
   return (
     <>
+    <motion.div className="progress-bar" style={{ scaleX }} />
     <section id='Inicio'>
     <div className='inicio'>
       <Carousel data-bs-theme="dark">
@@ -79,6 +86,9 @@ function Home() {
     </Form>
     </div>  
     </section>
+
+    <div className='divisor'></div>
+
 
     <section id='Portifolio'>
     <div className='portifolio-page'>
