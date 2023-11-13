@@ -1,6 +1,6 @@
 * {
     scrollbar-width: auto;
-    scrollbar-color: #00e774 #ffffff;
+    scrollbar-color: #00e774 #000000;
 }
 
 *::-webkit-scrollbar {
@@ -8,13 +8,13 @@
 }
 
 *::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: #000000;
 }
 
 *::-webkit-scrollbar-thumb {
     background-color: #00e774;
     border-radius: 6px;
-    border: 3px solid #ffffff;
+    border: 3px solid #000000;
 }
 
 body{
@@ -22,8 +22,14 @@ body{
     margin-top: -13vw;
 }
 
+img.d-block.w-100 {
+    height: 56vw;
+}
+
 .sobre-page{
-    background-color: black;
+    background-image: url("bg-img.gif");
+    background-repeat: no-repeat;
+    background-size: 100vw;
 }
 
 h1#sbpH1{
@@ -59,7 +65,9 @@ span.carousel-control-prev-icon {
 }
 
 .contato-page {
-    background-color: aliceblue;
+    background-image: url("bg-img-2.gif");
+    background-repeat: no-repeat;
+    background-size: 100vw;
     padding: 30px;
 }
 
@@ -96,7 +104,9 @@ label.form-label {
 }
 
 .portifolio-page{
-    background-color: rgb(83, 83, 83);
+    background-image: url("bg-img-3.gif");
+    background-repeat: no-repeat;
+    background-size: 140vw;
     padding: 100px;
     
 }
@@ -117,11 +127,11 @@ h1#portifolio-h1{
 }
 
 .pPOrtifolio-page {
-    display: flex;
-    /* margin-left: 40px;
-    margin-top: 20px; */
+
     padding: 20px;
-    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .row {
