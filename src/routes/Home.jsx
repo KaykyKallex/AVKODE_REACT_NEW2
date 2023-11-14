@@ -105,10 +105,12 @@ function Home() {
     <section id='Agradecimentos'>
     <div className='Agradecimentos-page'>
     <h1 id='Agradecimentos-h1'>Nossos Agradecimentos</h1>
-    <Image className='img-agrd' src="https://media.licdn.com/dms/image/C4D03AQG9LkDRJH6UDA/profile-displayphoto-shrink_800_800/0/1565313254776?e=2147483647&v=beta&t=q-rpzrFsTxcPK0DjMxcbEj_c7adO6RatXCHMnWaXsM0" fluid />;
+    {/* <Image className='img-agrd' src="https://media.licdn.com/dms/image/C4D03AQG9LkDRJH6UDA/profile-displayphoto-shrink_800_800/0/1565313254776?e=2147483647&v=beta&t=q-rpzrFsTxcPK0DjMxcbEj_c7adO6RatXCHMnWaXsM0" fluid />; */}
       <p id='agrP'>Prof. Wellington Cidade</p>
-      <Image className='img-agrd' src="https://c4.wallpaperflare.com/wallpaper/59/531/787/5bd0338b20c50-wallpaper-preview.jpg" fluid />;
-      <p id='agrP'>A AVKODE é uma empresa </p>
+      <Image className='img-agrd' src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" fluid />;
+      <p id='agrP'>Equipe AVKODE</p>
+      <Image className='img-agrd' src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" fluid />;
+      <p id='agrP'>Equipe AVKODE</p>
     </div>
     </section>
     </>

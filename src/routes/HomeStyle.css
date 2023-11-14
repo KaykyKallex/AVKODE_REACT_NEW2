@@ -30,6 +30,7 @@ img.d-block.w-100 {
     background-image: url("bg-img.gif");
     background-repeat: no-repeat;
     background-size: 100vw;
+    background-position: center;
 }
 
 h1#sbpH1{
@@ -69,6 +70,7 @@ span.carousel-control-prev-icon {
     background-repeat: no-repeat;
     background-size: 100vw;
     padding: 30px;
+    background-position: center;
 }
 
 form.cnt-page {
@@ -88,6 +90,13 @@ form.cnt-page {
 @media (min-width: 720px) {
     form.cnt-page {
         width: 50vw;
+        padding: 7vw;
+    }
+}
+
+@media (min-width: 1536px) {
+    p#pPort{
+        margin-top: 17vw !important;
     }
 }
 
@@ -104,15 +113,17 @@ label.form-label {
 }
 
 .portifolio-page{
-    background-image: url("bg-img-3.gif");
+    background-image: url(/src/routes/bg-img-3.gif);
     background-repeat: no-repeat;
-    background-size: 140vw;
+    background-size: 119vw;
     padding: 100px;
-    
+    background-position: center;
 }
 
 p#pPort{
     color: white;
+    display: block;
+    margin: 0 auto;
 }
 
 h1#portifolio-h1{
@@ -166,5 +177,5 @@ p#agrP {
 }
 
 .divisor {
-    height: 76px;
+    height: 20px;
 }
