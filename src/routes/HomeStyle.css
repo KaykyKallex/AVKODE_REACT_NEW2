@@ -161,18 +161,18 @@ h1#Agradecimentos-h1 {
     padding: 95px;
 }
 
-p#agrP {
-    color: white;
-}
 
 .Agradecimentos-img {
     display: flex;
     align-items: center;
-    
+    width: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
 img.img-agrd {
-    height: 15vw;
+    height: 13vw;
 }
 
 img.img-agrd.img-fluid {
@@ -184,6 +184,9 @@ img.img-agrd.img-fluid {
 
 p#agrP {
     text-align: center;
+    color: white;
+    margin-top: 22vw;
+    margin-left: -18vw;
 }
 
 .divisor {

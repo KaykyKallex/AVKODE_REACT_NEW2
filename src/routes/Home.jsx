@@ -106,16 +106,16 @@ function Home() {
         <div className='Agradecimentos-page'>
           <h1 id='Agradecimentos-h1'>Equipe AVKODE</h1>
           <div className='Agradecimentos-img'>
+            <Image className='img-agrd' src="https://media.licdn.com/dms/image/D4D35AQHOARFCULbr3g/profile-framedphoto-shrink_200_200/0/1692196856003?e=1700596800&v=beta&t=NCp9YcenmTMEnWdCOsv4iMosa6zfP2idtM9DnEmB_qs" fluid />;
+            <p id='agrP'>Carlos Eduardo</p>
+            <Image className='img-agrd' src="https://media.licdn.com/dms/image/D4D03AQH7NRw8L2rjCg/profile-displayphoto-shrink_200_200/0/1682715618568?e=1705536000&v=beta&t=W0giodxPN751ItsyAx33DEm0D0pQOBJ5eKW8rKKseLM" fluid />;
+            <p id='agrP'>Eduardo Pereira</p>
+            <Image className='img-agrd' src="https://media.licdn.com/dms/image/D4E03AQHnDcnP-jviDA/profile-displayphoto-shrink_200_200/0/1692973791724?e=1705536000&v=beta&t=1Bo_GM9v3WpBzw3cbCoqEEzLGTYrJJHg0oQ3U2wG_K8" fluid />;
+            <p id='agrP'>Kayky de Souza</p>
             <Image className='img-agrd' src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" fluid />;
-            <p id='agrP'>Equipe AVKODE</p>
-            <Image className='img-agrd' src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" fluid />;
-            <p id='agrP'>Equipe AVKODE</p>
-            <Image className='img-agrd' src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" fluid />;
-            <p id='agrP'>Equipe AVKODE</p>
-            <Image className='img-agrd' src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" fluid />;
-            <p id='agrP'>Equipe AVKODE</p>
-            <Image className='img-agrd' src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" fluid />;
-            <p id='agrP'>Equipe AVKODE</p>
+            <p id='agrP'>Matheus Ferreira</p>
+            <Image className='img-agrd' src="https://media.licdn.com/dms/image/D4D03AQFuB0sXF2h5Ag/profile-displayphoto-shrink_200_200/0/1697399435451?e=1705536000&v=beta&t=0Yh1e8k5pDR381Bg_BwxnBEF77C-vzjUp8CgvUBo8fU" fluid />;
+            <p id='agrP'>Victor Massao</p>
           </div>
         </div>
       </section>
