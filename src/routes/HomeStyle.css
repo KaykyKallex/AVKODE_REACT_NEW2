@@ -165,6 +165,16 @@ p#agrP {
     color: white;
 }
 
+.Agradecimentos-img {
+    display: flex;
+    align-items: center;
+    
+}
+
+img.img-agrd {
+    height: 15vw;
+}
+
 img.img-agrd.img-fluid {
     padding: 19px;
     border-radius: 27px;
