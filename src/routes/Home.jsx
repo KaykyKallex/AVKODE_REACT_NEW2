@@ -114,6 +114,7 @@ function Home() {
       <section id='Agradecimentos'>
         <div className='Agradecimentos-page'>
         <Slide left>
+        <div className='Agradecimentos-page1'>
           <h1 id='Agradecimentos-h1'>Equipe AVKODE</h1>
           <div className='Agradecimentos-img'>
             <Image className='img-agrd' src="https://media.licdn.com/dms/image/D4D03AQH7Xo4n4dUVeQ/profile-displayphoto-shrink_200_200/0/1681913003048?e=1706140800&v=beta&t=BzzHvKZNqR-sUzKKytHvFKkgyrcQPdmWwtRZCq90NuI" fluid />;
@@ -125,7 +126,8 @@ function Home() {
             <Image className='img-agrd' src={myImage} fluid />;
             <p id='agrP'>Matheus Ferreira</p>
             <Image className='img-agrd' src="https://media.licdn.com/dms/image/D4D03AQFuB0sXF2h5Ag/profile-displayphoto-shrink_200_200/0/1697399435451?e=1705536000&v=beta&t=0Yh1e8k5pDR381Bg_BwxnBEF77C-vzjUp8CgvUBo8fU" fluid />;
-            <p id='agrP'>Victor Massao</p>  
+            <p id='agrP'>Victor Massao</p> 
+            </div> 
           </div>
           </Slide>
         </div>

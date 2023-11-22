@@ -45,8 +45,11 @@ p#sbpP {
     color: white;
     padding: 50px;
     margin-left: 6vw;
+    margin-bottom: 2vw;
     width: 90vw;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
 }
 
 img.img-fluid {
@@ -124,6 +127,9 @@ p#pPort{
     color: white;
     display: block;
     margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 20px;
 }
 
 h1#portifolio-h1{
@@ -154,11 +160,13 @@ h1#Agradecimentos-h1 {
     justify-content: center;
     color: white;
     text-align: center;
+    font-variant: all-petite-caps;
 }
 
 .Agradecimentos-page {
     background-color: currentcolor;
     padding: 95px;
+    
 }
 
 
@@ -187,6 +195,7 @@ p#agrP {
     color: white;
     margin-top: 22vw;
     margin-left: -18vw;
+    font-variant: all-petite-caps;
 }
 
 .divisor {
