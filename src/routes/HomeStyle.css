@@ -103,6 +103,38 @@ form.cnt-page {
     }
 }
 
+@media (max-width: 900px) {
+    p#agrP{
+        font-size: small;
+    }
+}
+
+@media (max-width: 788px) {
+    p#agrP{
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 718px) {
+    img.img-agrd {
+        height: 16vw !important;
+    }
+}
+
+@media (max-width: 667px) {
+    p#agrP{
+        display: none;
+    }
+    img.img-agrd {
+        height: 16vw;
+    }
+}
+
+@media (max-width: 584px) {
+    img.img-agrd {
+        height: 26vw !important;
+    }
+}
 
 h1#contato-h1{
     display: flex;
