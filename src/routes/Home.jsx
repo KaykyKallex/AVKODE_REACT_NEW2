@@ -103,7 +103,7 @@ function Home() {
           <div className='pPOrtifolio-page'>
           <Slide bottom>
             <Image className='img-port' src="https://c4.wallpaperflare.com/wallpaper/59/531/787/5bd0338b20c50-wallpaper-preview.jpg" fluid />;
-            <p id='pPort'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p id='pPort'>TechDecor - Decorações | 2023</p>
             <Image className='img-port' src="https://c4.wallpaperflare.com/wallpaper/59/531/787/5bd0338b20c50-wallpaper-preview.jpg" fluid />;
             <p id='pPort'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Slide>
